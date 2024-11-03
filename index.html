@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infamy Studios</title>
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+     
+    
+        
+        header {
+            user-select: none;
+            background: linear-gradient(-45deg,#21062d, #390a4d );
+            color: white;
+            padding: 20px 20px;
+            text-align: center;
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        h1 {
+            user-select: none;
+    font-weight: 700;
+   text-align: center;
+   transition: transform 0.3s;
+ }
+ 
+ h1:hover {
+    font-weight: 700;
+    transform: translateY(-5%) scale(1.03);
+ }
+        h1 {
+            margin: 0;
+            font-size: 4em;
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        nav {
+            margin: 30px 0;
+        }
+        nav a, .btn {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.5em;
+            padding: 12px 25px;
+            border-radius: 5px;
+            border: 2px solid ;
+            transition: all 0.3s ease;
+        }
+        nav a:hover, .btn:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Infamy Studios</h1>
+        <nav>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="team.html">Team</a>
+        </nav>
+    </header>
+</body>
+</html>
